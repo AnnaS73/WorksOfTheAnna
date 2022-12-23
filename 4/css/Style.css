@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+
+    font-family: Montserrat;
+
+    font-weight: normal;
+}
+
+html{
+    background-color: #FFF; 
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    margin: 50px 0;
+}
+
+
+body{
+    margin: 0;
+}
+
+.Container{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+
+
+
+.UpSection{
+    display: flex;
+    flex-flow: row wrap;
+
+    margin: 20px 0 0 0;
+}
+
+
+
+.UpSectionInfo{
+    margin: 0 0 0 1%;
+}
+
+.UpUderabilityElmt{
+    display: flex;
+    justify-content: flex-end;
+
+    width: 800px;
+    height: 20px;
+}
+
+.UpUderabilityElmt img, .UpUderabilityElmt span{
+    margin: 0 20px;
+}
+
+.UpUderabilityElmt-span{
+    
+    font-weight: bold;
+
+    padding: 4px;
+    padding-bottom: 20px; 
+    
+    color: #fff;
+    background-color:#156952;
+}
+
+.HRowImgHolder{
+    position: relative;
+
+    height: 500px;
+    width: 400px;
+}
+
+#Logo{
+    position: absolute;
+    left: 40px;
+    top: 10px;
+}
+
+
+.HR-DescText{
+    width: 700px;
+    
+    margin: 100px 0 0 12%;
+}
+
+.HR-DescText h1{
+    font-size: 50px;
+
+    margin: 0;
+}
+
+.HR-DescText h3{
+
+    text-decoration: none;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    margin: 0;
+}
+
+.HR-Buttons{
+    display: flex;
+    flex-flow: row wrap;
+    
+    justify-content: flex-end;
+
+
+    margin-top: 280px;
+}
+
+.HR-Buttons-Button{
+    padding: 5px 10px;
+
+    width: 220px;
+
+    height: 80px;
+}
+
+
+.HR-Buttons-Button h2, .HR-Buttons-Button h4{
+    margin: 0;
+}
+
+#FirstBtn{
+    margin-right: 150px;
+
+    color: #000;
+
+    font-size: 20px;
+}
+
+#FirstBtn h2{
+    color:#156952;
+}
+
+#FirstBtn h4::before{
+    content: "← ";
+}
+
+#SecondBtn{
+    background-color: #156952;
+    color: #000;
+}
+
+#SecondBtn h4::after{
+    content: " →";
+}
+
+#SecondBtn h2{
+    color: #fff;
+}
+
+
+
+
+
+
+.InfoCards{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.card{
+    width: 380px;
+}
+
+.card .card-info{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+}
+
+
+.card-info h2{
+    margin: 8px 0 0 10px;
+}
+
+.card p{
+    margin: 0;
+}
+
+
+
+
+
+.NewPlantsSection{
+    margin: 50px 0;
+}
+
+.NewPlantsSection h1{
+    border-bottom: 1px solid #000;
+}
+
+.NewPlantsSection-Plants{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Plant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+
+    width: 250px;
+
+    background-color: #5552;
+}
+
+.Plant h4, .Plant h5{
+    margin: 0;
+}
+
+.Plant h4{
+    font-weight: bold;
+}
+
+
+
+.NewPlantPromote{
+    display: flex;
+    flex-flow: row wrap;
+
+    align-items: flex-start;
+}
+
+.Info{
+    
+    margin-right: 14%;
+}
+
+.Info-Desc{
+    display: flex;
+    flex-flow: column wrap;
+
+    width: 600px;
+
+    margin-bottom: 70px;
+}
+
+.Info-Desc h1{
+    width: 400px;
+}
+
+
+
+
+.Flower-Heand{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #F3F4F6;
+
+    margin-top: 40px;
+}
+
+
+.Flower-Heand-TEXT{
+    display: flex;
+    flex-flow: column wrap;
+
+    margin: 80px  0 0 80px;    
+}
+
+
+.Flower-Heand-TEXT .BTN{
+
+    margin-top: 20px;
+    width: 180px;
+
+    background-color: #166963;
+    color: #FFF;
+    padding: 10px 40px;
+}
+
+.Flower-Heand-TEXT h1{
+    font-weight: bold;
+    width: 400px;
+}
+
+.Flower-Heand img{
+    margin-left: 30%;
+}
+
+
+
+
+.foorer-container{
+    margin: 50px 30px;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.PLANTAKU p{
+    width: 400px;
+}
+
+.footer-UL ul{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+}   
+
+.footer-UL h2{
+    margin:0;
+
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer-UL li{
+    display: flex;
+    margin: 10px 0;
+}
+
+
+
+
+.email{
+    margin-top: 20px;
+}
+
+.email h1{
+    margin:0;
+
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.email input{
+    width: 100%;
+
+    border: 0pc solid #000;
+
+    margin: 20px 0;
+}
+
+.emailButton{
+
+    background-color: #166963;
+    color: #FFF;
+    padding: 10px 30px; 
+}
+
