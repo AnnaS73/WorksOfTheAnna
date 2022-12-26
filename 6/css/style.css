@@ -1,0 +1,114 @@
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.conteiner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.carousel-inner {
+    height: 600px;
+}
+
+.modal-footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: between;
+}
+
+.CardsHolderRow {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.card {
+    margin: 80px 0 0 0;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.centralH1 {
+    display: flex;
+    justify-content: center;
+}
+
+.card .modal-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: centers;
+}
+
+.InputsRow {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.InputsRow .col {
+    margin: 0px 2px;
+}
+
+.centralaise {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.Box {
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.Box-Content {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.Box-Content .list-group-item {
+    width: 100px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.Box-Content .Box-text {
+    margin: 50px 0;
+    width: 90%;
+    font-style: italic;
+}
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.HeadTitle {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.HeadTitle h5 {
+    margin: auto 10px;
+}
+
+footer .small-listGroup {
+    width: 100px;
+    margin: 80px 0 0 10px;
+}
+
+footer .Big-listGroup {
+    width: 350px;
+    margin: 80px 0 0 10px;
+    text-align: center;
+}
+
+.SearchButton {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
